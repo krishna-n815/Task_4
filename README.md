@@ -1,41 +1,42 @@
 # Task_4
-📚 Objective
-To practice and demonstrate SQL aggregate functions and grouping to summarize data from one or more tables using SUM, COUNT, AVG, GROUP BY, and HAVING.
+Aggregate Functions and Grouping in SQL
+**📚 Objective**
+To practice and demonstrate SQL aggregate functions and grouping for summarizing data from one or more tables using SUM, COUNT, AVG, GROUP BY, and HAVING.
 
 🛠️ Tools
 MySQL Workbench
 
-🚀 Features Demonstrated
+**🚀 Features Demonstrated**
 
-Applying aggregate functions:
+Apply aggregate functions:
 
-SUM() — Calculate total sum
+SUM() — Calculate total
 
 COUNT() — Count rows
 
-AVG() — Find average value
+AVG() — Compute average
 
-Categorizing data using GROUP BY
+Categorize data using GROUP BY
 
-Filtering aggregated groups using HAVING
+Filter grouped results using HAVING
 
-📜 SQL Queries Included
+**📜 SQL Queries Included**
 
-Calculate the total number of books in the table.
+Calculate total number of records in the table (COUNT).
 
-Find the average price of all books.
+Find average values of numeric columns (AVG).
 
-Calculate total price of books for each genre.
+Calculate total sum of numeric columns (SUM).
 
-Count the number of books written by each author.
+Group data based on columns like Genre, Author, Publisher, YearPublished.
 
-Compute average price of books published by each publisher.
+Count number of records for each group.
 
-Count the number of books published each year.
+Compute average or sum for each group.
 
-Find genres that have more than 2 books using HAVING.
+Filter groups based on aggregate results using HAVING.
 
-🗂️ Files Included
+**🗂️ Files Included**
 
 task_4.sql — SQL script file with:
 
@@ -43,7 +44,7 @@ Table creation
 
 Data insertion
 
-Aggregate queries using SUM, COUNT, AVG, GROUP BY, and HAVING
+SQL queries using SUM, COUNT, AVG, GROUP BY, and HAVING
 
 README.md — This file
 
@@ -55,19 +56,19 @@ Open the task_4.sql file.
 
 Run the script to:
 
-Create the table
+Create the table.
 
-Insert sample data
+Insert the sample data.
 
-Execute the aggregate queries
+Execute the aggregate function queries.
 
 View the output of each query in the Result Pane.
 
-📑 Mini Guide (Mints)
+**📑 Mini Guide (Mints)**
 
-✅ Apply aggregate functions on numeric columns like Price.
+1.Apply aggregate functions (SUM, COUNT, AVG) on numeric columns like Price.
 
-✅ Use GROUP BY to summarize data by categories like Genre, Author, or Publisher.
+2.Use GROUP BY to categorize and summarize data based on columns like Genre, Author, Publisher, or YearPublished.
 
-✅ Filter grouped data using HAVING based on conditions like COUNT(*) > 2.
+3.Use HAVING to filter grouped data based on aggregate conditions (e.g., HAVING COUNT(*) > 2).
 
