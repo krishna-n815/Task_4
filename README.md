@@ -1,5 +1,7 @@
 # Task_4
-Aggregate Functions and Grouping in SQL
+**Aggregate Functions and Grouping in SQL**
+
+
 **📚 Objective**
 To practice and demonstrate SQL aggregate functions and grouping for summarizing data from one or more tables using SUM, COUNT, AVG, GROUP BY, and HAVING.
 
